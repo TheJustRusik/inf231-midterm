@@ -10,7 +10,8 @@
     <header class="bg-[#fbf8f3]">
         <div class="mx-2 py-5 flex justify-between items-center md:mx-auto md:max-w-screen-lg md:p-2">
             <h1 class="text-2xl font-extrabold">bon apétite!</h1>
-            <button class="md:hidden bg-[#4d13d1] focus:bg-purple-600 transition duration-300 rounded-lg" title="show_menu" type="button">
+            
+            <button class="md:hidden bg-[#4d13d1] transform transition-transform hover:scale-110 active:scale-90 focus:outline-none rounded-lg" title="show_menu" type="button">
                 <div>
                     <img src="assets/Hamburger Menu.svg" alt="" class="p-2">
                 </div>
@@ -19,27 +20,34 @@
             <div class="hidden md:block flex ">
                 <button class="mx-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none">
                     <div>
-                        <p class="text-xl font-bold underline" style="text-decoration-color: #4d13d1;">Main</p>
+                        <p class="text-xl font-bold">Main</p>
                     </div>
                 </button>
                 <button class="mx-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none">
                     <div>
-                        <p class="text-xl font-bold underline" style="text-decoration-color: #4d13d1;">Recipes</p>
+                        <p class="text-xl  ">Recipes</p>
                     </div>
                 </button>
                 <button class="mx-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none">
                     <div>
-                        <p class="text-xl font-bold underline" style="text-decoration-color: #4d13d1;">Blogs</p>
+                        <p class="text-xl">Blogs</p>
                     </div>
                 </button>
             </div>
             
             <div class="hidden md:block flex justify-between">
-                <button class="bg-[#4d13d1] rounded-lg ml-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none" title="log_reg" type="button">
+                <button class="rounded-lg ml-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none" title="log_reg" type="button">
                     <div>
-                        <p class="text-white text-xl font-bold p-2">Sign up</p>
+                        <p class="text-xl font-bold p-2">Sign in</p>
                     </div>
                 </button>
+                <a href="signup.html">
+                    <button class="bg-[#4d13d1] rounded-lg ml-1 transform transition-transform hover:scale-110 active:scale-90 focus:outline-none" title="log_reg" type="button">
+                        <div>
+                            <p class="text-white text-xl font-bold p-2">Sign up</p>
+                        </div>
+                    </button>
+                </a>
             </div>
             
         </div>
