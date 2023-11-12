@@ -7,6 +7,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div class="fixed top-0 left-0 m-1 p-4 text-white rounded-full backdrop-filter backdrop-blur-3xl bg-opacity-70 backdrop-blur-sm bg-white">
+        <a href="index.html"><img src="images/cancel-cross_icon-icons.com_71726.svg" class="w-8 " alt=""></a>
+        
+    </div>
+    <div class="flex items-center" style="background-image: url('images/blur-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;">
+        <!--Container-->
+        <div class="flex items-center mx-auto max-w-screen-xl">
+            <div class="p-4 rounded-2xl backdrop-filter backdrop-blur-3xl bg-opacity-70 backdrop-blur-sm bg-white">
+                <h1 class="text-4xl font-bold text-[#141a38]">Sign Up!</h1>
+                
+                <p class="text-xl text-[#272e4a]">Hurry up, join our cozy community<br>of chefs and prove that every person<br>is capable of creating a culinary masterpiece!</p>
+                <div id="img_box" class="">
+                    <img src="images/img1.jpg" alt="Image 1" class="">
+                    <img src="images/img2.jpg" alt="Image 2" class="">
+                    <img src="images/img3.jpg" alt="Image 3" class="">
+                </div>
+            </div>
+            <div class="ml-2 p-4 rounded-2xl backdrop-filter backdrop-blur-3xl bg-opacity-70 backdrop-blur-sm bg-white">
+                <p>First name:</p>
+                <input type="text" class="w-full p-2 mb-2 border rounded-xl" placeholder="John" id="name">
+                <p id="n_e" class="text-red-500 mb-2"></p>
+
+                <p>Last name:</p>
+                <input type="text" class="w-full p-2 mb-2 border rounded-xl" placeholder="Doe" id="surname">
+                <p id="s_e" class="text-red-500 mb-2"></p>
+
+                <p>Phone number:</p>
+                <input type="tel" class="w-full p-2 mb-2 border rounded-xl" placeholder="+7 777 777 77 77" id="tel">
+                <p id="t_e" class="text-red-500 mb-2"></p>
+
+                <p>Email:</p>
+                <input type="email" class="w-full p-2 mb-2 border rounded-xl" placeholder="john_doe@gmail.com" id="mail">
+                <p id="m_e" class="text-red-500 mb-2"></p>
+
+                <p>Password:</p>
+                <input type="password" class="w-full p-2 border rounded-xl" placeholder="At least 8 character" id="pass">
+                <p id="p_e" class="text-red-500 mb-2"></p>
+
+                <button class="w-full mx-auto mt-2" id="register">
+                    <div class="rounded-xl hover:bg-purple-800 transition duration-300 ease-in-out bg-purple-500">
+                        <p class="p-3 text-white font-bold text-xl">Sign Up</p>
+                    </div>
+                </button>
+              </div>
+            </body>
+                
+            </div>
+        </div>
+    </div>
+    <script src="src/register.js"></script>
 </body>
 </html>

@@ -1,8 +1,13 @@
-.background-image {
-    background-image: url('images/blur-bg.jpg');
-    background-size: cover; /* Растягивает изображение, чтобы оно полностью покрывало элемент */
-    background-position: center; /* Выравнивание изображения по центру */
-    background-repeat: no-repeat; /* Запрет повторения изображения */
-    height: 100vh; /* Занимает 100% высоты экрана */
-   
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item {
+  width: 120px;
+  min-height: 120px;
+  max-height: auto;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
